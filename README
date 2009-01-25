@@ -1,0 +1,4 @@
+Some useful thor tasks.
+
+git:stockpile       Creates a clone of a repository in a central location.  For reference and for saving  
+                    disk space by cloning locally to other places, i.e., vendor/rails.
