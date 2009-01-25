@@ -1,10 +1,4 @@
-#!/usr/bin/env ruby
-
-require 'rubygems'
-require 'thor'
-require 'git-stockpile'
-
-class GitStockpile < Thor
+class Git < Thor
   desc "stockpile [REPO]", "Create a clone of [REPO], in a central location."
   def stockpile(remote)
     puts "Stockpiling repository #{remote}..."
@@ -19,4 +13,3 @@ class GitStockpile < Thor
 end
 
 
-GitStockpile.start
